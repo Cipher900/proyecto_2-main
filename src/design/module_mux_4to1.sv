@@ -1,8 +1,8 @@
 module mux_4to1 (
-    input [6:0] a,                 
-    input [6:0] b,                 
-    input [6:0] c,                 
-    input [6:0] d,                 
+    input [5:0] a,                 
+    input [5:0] b,                 
+    input [5:0] c,                 
+    input [5:0] d,                 
     input [1:0] sel,               
     output reg [6:0] out
 );
